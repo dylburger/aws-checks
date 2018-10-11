@@ -1,0 +1,28 @@
+{
+  "name": "aws-checks",
+  "version": "0.0.1",
+  "description": "Checks the state of AWS resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "aws",
+    "checks"
+  ],
+  "author": "Dylan Sather",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.332.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^23.6.0",
+    "babel-loader": "^8.0.4",
+    "jest": "^23.6.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  }
+}
