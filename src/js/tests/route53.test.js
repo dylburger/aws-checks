@@ -1,6 +1,6 @@
 import { doesHostedZoneExist } from "../route53";
 
-test("test domain does exist", async () => {
-  const state = await doesHostedZoneExist("dylbaum.com.");
-  expect(state).toBe(true);
+test("test domain does not exist", async () => {
+  const state = await doesHostedZoneExist("test.com.");
+  expect(state).toBe(false);
 });
