@@ -15,7 +15,7 @@ export default async domain => {
     }
 
     const targetHostedZone = hostedZones.HostedZones.filter(
-      zone => zone.Name == domain
+      zone => zone.Name === domain
     )[0];
     const HostedZoneId = targetHostedZone.Id;
 
