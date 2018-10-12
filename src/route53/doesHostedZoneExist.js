@@ -1,8 +1,6 @@
-import AWS from "./aws";
+import route53 from "src/route53/route53";
 
-const route53 = new AWS.Route53();
-
-export const doesHostedZoneExist = async domain => {
+export default async domain => {
   const params = {
     DNSName: domain
   };

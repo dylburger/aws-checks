@@ -1,4 +1,4 @@
-import config from "./config";
+import config from "src/config";
 import AWS from "aws-sdk";
 
 const credentials = new AWS.SharedIniFileCredentials(config);
